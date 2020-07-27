@@ -1,299 +1,203 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Zach Sarette | GitHub portfolio page</title>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>Zach Sarette | GitHub portfolio page</title>
 
-		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- Leave those next 4 lines if you care about users using IE8 -->
-		<!--[if lt IE 9]>
+	<link rel="stylesheet"
+		href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- Leave those next 4 lines if you care about users using IE8 -->
+	<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-
-		<style>
-			h1, h2, h3, h4, h5{
-				color:#4A4E69 !important;
-				font-weight: 300;
-				font-family: 'Open Sans', sans-serif;
-			}
-
-			p {
-				color: #4A4E69;
-				font-weight: 300;
-				font-family: 'Open Sans', sans-serif;
-			}
-
-			.profile-pic {
-				box-shadow: 0px 4px 6px 2px lightgrey;
-			  border-radius: 50%
-			}
-
-			.m-t-1 {
-				margin-top:1em;
-			}
-
-			.p-t-1 {
-				padding-top:1em;
-			}
-
-
-			.about-me {
-				margin-top:25px;
-			}
-
-			.navbar-default {
-				background-color: #C9ADA7;
-				background: none;
-				border: none;
-				border-radius:0;
-			}
-
-			.repo-row {
-				padding: 65px 10px;
-			}
-
-			.repo-row:nth-child(odd) {
-			  background-color: lightgrey;
-			  -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-			  clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-			}
-
-			.vertical-align {
-				display: flex;
-			  align-items: center;
-			  justify-content: center;
-			}
-
-			@media (max-width: 991px) {
-			    .row.vertical-align {
-			        display: block; /* Turn off the flexible box layout */
-			    }
-			}
-
-			.work-item-img {
-				max-height: 480px;
-				max-width:80%;
-			}
-
-			.row-footer {
-			/*	background-color: lightgrey;
-				-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
-				clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);*/
-				padding: 65px 10px;
-			}
-
-			.linkedin-btn {
-				width:140px;
-				box-shadow: 0px 2px 5px 1px lightgrey;
-				padding: 12px;
-				border-radius: 5px;
-			}
-
-			.btn-launch {
-				width:100%;
-				max-width:200px;
-				background-color: #549657;
-				color:white;
-				box-shadow: 0px 2px 5px 1px darkgrey;
-			}
-
-			.btn-launch:hover,
-			.btn-launch:focus {
-				color: white;
-				background: #3d7140;
-			}
-
-			.techUsed {
-				font-size:54px;
-				padding: 40px 0 0;
-			}
-
-			.techUsed i {
-				margin:0 15px;
-			}
-
-			.toolsUsed {
-				font-size: 100px;
-			  padding: 40px 0;
-			}
-
-			.toolsUsed i {
-				margin:0 15px;
-			}
-
-			.about {
-				margin-bottom:80px;
-			}
-		</style>
-
-	</head>
-	<body>
-
-
-		<div class="container-fluid">
-
-			<section class="about">
-				<div class="text-center" style="margin-top:100px">
-                                    <img src="https://avatars1.githubusercontent.com/u/650130?v&#x3D;4" width=200 class="profile-pic">
-                                    <h1>Zach Sarette</h1>
-                                    <h3>Tokyo, Japan</h3>
-                                    <h5>Full Stack Web developer, Former Game Developer.</h5>
-                                    <h5>A passion for Automation, Systems, and Tools.</h5>
-                                    <h5>In my free time I like to practice the piano and join game jams.</h5>
-
-				  </div>
-				</div>
-			</section>
+	<link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<section class="about">
 			<div class="text-center" style="margin-top:100px">
-			<h1>Projects</h1>
+				<img src="https://avatars1.githubusercontent.com/u/650130?v&#x3D;4" width=200 class="profile-pic">
+				<h1>Zach Sarette</h1>
+				<h3>Tokyo, Japan</h3>
+				<h5>Full Stack Web developer, Former Game Developer.</h5>
+				<h5>A passion for Automation, Systems, and Tools.</h5>
+				<h5>In my free time I like to practice the piano and join game jams.</h5>
 			</div>
-			<section class="repos">
-		  		<div class="row repo-row">
-		  		    <div class="col-sm-8 col-sm-offset-2">
-		  		    	<div class="row vertical-align">
-			  		    		<div class="col-xs-12 col-md-8">
-			  		    			<img src="https://raw.githubusercontent.com/zacharysarette/beautiful-cat-facts/master/beautiful-cat-facts-desktop-dark.PNG" class="img-responsive work-item-img center-block">
-			  		    		</div>
-			  		    		<div class="col-xs-12 col-md-4">
-			  		    			<h2>
-				  		    				<a href="https://thirsty-wilson-a455c4.netlify.app/" target="blank">beautiful-cat-facts</a>
-				  		    		</h2>
-			  		    			
-			  		    			
-			  		    			<p>This is a VueJS cat fact application</p>
-									<p>View hundreds of catfacts and enjoy cute pictures of cats. There is also a mini card game built in. Relax and enjoy beautiful-cat-facts</p>
-			  		    		</div>
-		  		    		
-		  	    		</div>
-		  	    		<div class="row text-center techUsed">
-		  	    			<div class="col-xs-12">
-		  		    			<i class="devicon-vuejs-plain-wordmark"></i>
-		  		    			<i class="devicon-javascript-plain"></i>
-		  	    			</div>
-		  	    		</div>
-	  			    		<div class="row text-center" style="margin:20px;">
-	  			    				<a class="btn btn-launch" href="https://github.com/zacharysarette/beautiful-cat-facts" target="blank">View on GitHub</a>
-									<a class="btn btn-launch" href="https://thirsty-wilson-a455c4.netlify.app/" target="blank">Visit Site</a>
-	  		    			</div>
-		  				</div>
-		  		</div>
-				
-		  		<div class="row repo-row">
-		  		    <div class="col-sm-8 col-sm-offset-2">
-		  		    	<div class="row vertical-align">
-			  		    		<div class="col-xs-12 col-md-8">
-			  		    			<img src="https://img.itch.zone/aW1hZ2UvNTU5NTE3LzI5OTQyMTkucG5n/original/TP5kQ1.png" class="img-responsive work-item-img center-block">
-			  		    		</div>
-			  		    		<div class="col-xs-12 col-md-4">
-			  		    			<h2>
-				  		    				<a href="https://zachsarette.itch.io/deterioratingdad" target="blank">Deteriorating Dad</a>
-				  		    		</h2>
-			  		    			
-			  		    			
-			  		    			<p>This is a game built for the Global Game Jam 2020</p>
-									<p>I did the art, the web build, and fixed the audio system during the game jam.<p>
-									<p>After the jam, I fixed all of the major bugs, improved the gameplay, ui, and sfx. And finally I localized the game from Japanese to English.</p>
-			  		    		</div>
-		  		    		
-		  	    		</div>
-		  	    		<div class="row text-center techUsed">
-		  	    			<div class="col-xs-12">
-		  		    			
-								<i class="devicon-csharp-plain colored"></i>
-		  	    			</div>
-		  	    		</div>
-	  			    		<div class="row text-center" style="margin:20px;">
-	  			    				<a class="btn btn-launch" href="https://zachsarette.itch.io/deterioratingdad" target="blank">Play Now on Itch.io</a>
-	  		    			</div>
-		  				</div>
-		  		</div>
-
-		  		<div class="row repo-row">
-		  		    <div class="col-sm-8 col-sm-offset-2">
-		  		    	<div class="row vertical-align">
-			  		    		<div class="col-xs-12 col-md-8">
-			  		    			<img src="https://github.com/zacharysarette/piano-toy/raw/master/screenshots/PianoToyDeskTopScreenShot.PNG" class="img-responsive work-item-img center-block">
-			  		    		</div>
-			  		    		<div class="col-xs-12 col-md-4">
-			  		    			<h2>
-				  		    				<a href="https://fervent-carson-0b2a07.netlify.app" target="blank">Piano Toy</a>
-				  		    		</h2>
-			  		    			
-			  		    			<p>This is a toy piano app made with VueJS and ToneJs</p>
-									<p>Works on both mobile and desktop platforms</p>
-			  		    		</div>
-		  		    		
-		  	    		</div>
-		  	    		<div class="row text-center techUsed">
-		  	    			<div class="col-xs-12">
-		  		    			<i class="devicon-vuejs-plain-wordmark"></i>
-		  		    			<i class="devicon-javascript-plain"></i>
-		  	    			</div>
-		  	    		</div>
-	  			    		<div class="row text-center" style="margin:20px;">
-	  			    				<a class="btn btn-launch" href="https://github.com/zacharysarette/piano-toy" target="blank">View on Github</a>
-	  			    				<a class="btn btn-launch" href="https://fervent-carson-0b2a07.netlify.app" target="blank">Visit Site</a>
-	  		    			</div>
-		  				</div>
+		</section>
+	</div>
+	<div class="text-center" style="margin-top:100px">
+		<h1>Projects</h1>
+	</div>
+	<section class="repos">
+		<div class="row repo-row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<div class="row vertical-align">
+					<div class="col-xs-12 col-md-8">
+						<img
+							src="https://raw.githubusercontent.com/zacharysarette/beautiful-cat-facts/master/beautiful-cat-facts-desktop-dark.PNG"
+							class="img-responsive work-item-img center-block">
 					</div>
-
-		  		<div class="row repo-row">
-		  		    <div class="col-sm-8 col-sm-offset-2">
-		  		    	<div class="row vertical-align">
-			  		    		<div class="col-xs-12 col-md-8">
-			  		    			<img src="https://raw.githubusercontent.com/zacharysarette/a-404-page/master/screenshot.png" class="img-responsive work-item-img center-block" alt="a 404 page screenshot">
-			  		    		</div>
-			  		    		<div class="col-xs-12 col-md-4">
-			  		    			<h2>
-				  		    				<a href="https://loving-pike-6e39a5.netlify.app/" target="blank">404 Error</a>
-				  		    		</h2>
-			  		    			
-			  		    			<p>This is a simple responsive 404 error page.</p>
-			  		    		</div>
-		  		    		
-		  	    		</div>
-		  	    		<div class="row text-center techUsed">
-		  	    			<div class="col-xs-12">
-		  		    			<i class="devicon-html5-plain-wordmark colored"></i>
-		  	    			</div>
-		  	    		</div>
-	  			    		<div class="row text-center" style="margin:20px;">
-	  			    				<a class="btn btn-launch" href="https://github.com/zacharysarette/a-404-page" target="blank">View on Github</a>
-	  			    				<a class="btn btn-launch" href="https://loving-pike-6e39a5.netlify.app" target="blank">Visit Site</a>
-	  		    			</div>
-		  				</div>
-		  		</div>
-
-			</section>			
-
-			<div class="row row-footer text-center">
-				<div class="col">
-  				<div style="margin:50px;">
-  					<h3 style="margin:50px 0 15px">I'm available for work, get in touch.</h3>
-                                        <a href="https://twitter.com/SuperRocketZach" target="blank"> Twitter </a>
-				  </div>
+					<div class="col-xs-12 col-md-4">
+						<h2>
+							<a href="https://thirsty-wilson-a455c4.netlify.app/" target="blank">beautiful-cat-facts</a>
+						</h2>
+						<p>This is a VueJS cat fact application</p>
+						<p>View hundreds of catfacts and enjoy cute pictures of cats. There is also a mini card game built in. Relax
+							and enjoy beautiful-cat-facts</p>
+					</div>
+				</div>
+				<div class="row text-center techUsed">
+					<div class="col-xs-12">
+						<i class="devicon-vuejs-plain-wordmark"></i>
+						<i class="devicon-javascript-plain"></i>
+					</div>
+				</div>
+				<div class="row text-center" style="margin:20px;">
+					<a class="btn btn-launch" href="https://github.com/zacharysarette/beautiful-cat-facts" target="blank">View on
+						GitHub</a>
+					<a class="btn btn-launch" href="https://thirsty-wilson-a455c4.netlify.app/" target="blank">Visit Site</a>
 				</div>
 			</div>
-
-
 		</div>
-
-
-		<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-		<script
-	  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-	  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-	  crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<!-- <script src="js/myScripts.js"></script> -->
-
-	</body>
+		<div class="row repo-row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<div class="row vertical-align">
+					<div class="col-xs-12 col-md-8">
+						<img src="https://img.itch.zone/aW1hZ2UvNTU5NTE3LzI5OTQyMTkucG5n/original/TP5kQ1.png"
+							class="img-responsive work-item-img center-block">
+					</div>
+					<div class="col-xs-12 col-md-4">
+						<h2>
+							<a href="https://zachsarette.itch.io/deterioratingdad" target="blank">Deteriorating Dad</a>
+						</h2>
+						<p>This is a game built for the Global Game Jam 2020</p>
+						<p>I did the art, the web build, and fixed the audio system during the game jam.
+						<p>
+						<p>After the jam, I fixed all of the major bugs, improved the gameplay, ui, and sfx. And finally I localized
+							the game from Japanese to English.</p>
+					</div>
+				</div>
+				<div class="row text-center techUsed">
+					<div class="col-xs-12">
+						<i class="devicon-csharp-plain colored"></i>
+					</div>
+				</div>
+				<div class="row text-center" style="margin:20px;">
+					<a class="btn btn-launch" href="https://zachsarette.itch.io/deterioratingdad" target="blank">Play Now on
+						Itch.io</a>
+				</div>
+			</div>
+		</div>
+		<div class="row repo-row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<div class="row vertical-align">
+					<div class="col-xs-12 col-md-8">
+						<img src="https://github.com/zacharysarette/piano-toy/raw/master/screenshots/PianoToyDeskTopScreenShot.PNG"
+							class="img-responsive work-item-img center-block">
+					</div>
+					<div class="col-xs-12 col-md-4">
+						<h2>
+							<a href="https://fervent-carson-0b2a07.netlify.app" target="blank">Piano Toy</a>
+						</h2>
+						<p>This is a toy piano app made with VueJS and ToneJs</p>
+						<p>Works on both mobile and desktop platforms</p>
+					</div>
+				</div>
+				<div class="row text-center techUsed">
+					<div class="col-xs-12">
+						<i class="devicon-vuejs-plain-wordmark"></i>
+						<i class="devicon-javascript-plain"></i>
+					</div>
+				</div>
+				<div class="row text-center" style="margin:20px;">
+					<a class="btn btn-launch" href="https://github.com/zacharysarette/piano-toy" target="blank">View on Github</a>
+					<a class="btn btn-launch" href="https://fervent-carson-0b2a07.netlify.app" target="blank">Visit Site</a>
+				</div>
+			</div>
+		</div>
+		<div class="row repo-row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<div class="row vertical-align">
+					<div class="col-xs-12 col-md-8">
+						<img src="https://raw.githubusercontent.com/zacharysarette/a-404-page/master/screenshot.png"
+							class="img-responsive work-item-img center-block" alt="a 404 page screenshot">
+					</div>
+					<div class="col-xs-12 col-md-4">
+						<h2>
+							<a href="https://loving-pike-6e39a5.netlify.app/" target="blank">404 Error</a>
+						</h2>
+						<p>This is a simple responsive 404 error page.</p>
+					</div>
+				</div>
+				<div class="row text-center techUsed">
+					<div class="col-xs-12">
+						<i class="devicon-html5-plain-wordmark colored"></i>
+					</div>
+				</div>
+				<div class="row text-center" style="margin:20px;">
+					<a class="btn btn-launch" href="https://github.com/zacharysarette/a-404-page" target="blank">View on
+						Github</a>
+					<a class="btn btn-launch" href="https://loving-pike-6e39a5.netlify.app" target="blank">Visit Site</a>
+				</div>
+			</div>
+		</div>
+		<div class="row repo-row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<div class="row vertical-align">
+					<div class="col-xs-12 col-md-8">
+						<img src="https://raw.githubusercontent.com/zacharysarette/reusable-components/master/screenshot.PNG"
+							class="img-responsive work-item-img center-block" alt="a reusable-components page screenshot">
+					</div>
+					<div class="col-xs-12 col-md-4">
+						<h2>
+							<a href="https://epic-hamilton-18fa47.netlify.app" target="blank">reusable-components</a>
+						</h2>
+						<p>A web page with reusable components for various situations.</p>
+					</div>
+				</div>
+				<div class="row text-center techUsed">
+					<div class="col-xs-12">
+						<i class="devicon-vuejs-plain-wordmark"></i>
+						<i class="devicon-javascript-plain"></i>
+					</div>
+				</div>
+			</div>
+			<div class="row text-center" style="margin:20px;">
+					<div class="col-xs-12">
+				<a class="btn btn-launch" href="https://github.com/zacharysarette/reusable-components" target="blank">
+					View on Github
+				</a>
+				<a class="btn btn-launch" href="https://epic-hamilton-18fa47.netlify.app" target="blank">
+					Visit Site
+				</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="row row-footer text-center">
+		<div class="col">
+			<div style="margin:50px;">
+				<h3 style="margin:50px 0 15px">I'm available for work, get in touch.</h3>
+				<a href="https://twitter.com/SuperRocketZach" target="blank"> Twitter </a>
+			</div>
+		</div>
+	</div>
+	<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin="anonymous"></script>
+	<!-- <script src="js/myScripts.js"></script> -->
+</body>
 </html>
